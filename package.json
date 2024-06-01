@@ -10,13 +10,14 @@
     "paper"
   ],
   "bin": {
-    "my-cli": "./index.js",
-    "paper-cli": "./index.js"
+    "weather": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "commander": "^12.1.0"
+    "axios": "^1.7.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
   }
 }
