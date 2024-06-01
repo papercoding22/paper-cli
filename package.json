@@ -10,7 +10,8 @@
     "paper"
   ],
   "bin": {
-    "my-cli": "./index.js"
+    "my-cli": "./index.js",
+    "paper-cli": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
