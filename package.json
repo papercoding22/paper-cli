@@ -1,0 +1,21 @@
+{
+  "name": "paper-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:papercoding22/paper-cli.git",
+  "author": "papercoding22 <john.ly997@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "paper"
+  ],
+  "bin": {
+    "my-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
